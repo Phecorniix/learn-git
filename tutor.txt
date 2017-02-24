@@ -69,3 +69,8 @@ ssh-keygen -t rsa -C "youremail@example.com"       # 一路回车，由于这个
 这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人。
 
 
+@9.改名字
+git mv <file_from> <file_to>   # 如果文件已在stage中，再改完名字后无需重新add；若尚在工作区，改完后则需要add
+
+
+
